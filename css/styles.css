@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+main {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+  font-size: 270%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 200%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+p {
+  line-height: 150%; /* растояние между строчками */
+  text-indent: 30px; /* Отступ по принципу красной строки */
+}
+
+section li {
+  margin-top: 10px; /* отступ с верху */
+  padding-left: 15px; /* отступ слева  */
+  list-style-image: linear-gradient(#fa9483, #fa9483) ;
+}
+
+.logo {
+  height: 50px;
+}
+
+.carousel-inner img {
+  height: 65vh;
+}
+
+/* Параметры для контактов главной страницы */
+
+.contact-info {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  height: 325px;
+  width: 99%;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+
+
+footer {
+  min-height: 80px;
+  background: #404040;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #b8b6ba;
+  text-decoration: underline 1px;
+}
+
+.bautura {
+  overflow: auto; /* т.к. используем плавающие элементы, которые могут выйти за пределы блока, это поможет правильно подстроить элементы */
+  border-bottom: 2px rgb(241, 137, 11) dashed;
+}
+
+.bautura h2 {
+  text-align: left;
+}
+
+.bautura img {
+  height: 18vh; /* высота изображения 18% видимого экрана*/
+  width: 18vh; /* ширина изобращения 18% видимого экрана*/
+  border-radius: 50%; /* закругляем изображение с 4-х углов */
+  float: left; /* выравнивание фото по левой стороне */
+  margin-right: 15px; /* отступ справа 15px, чтоб текст не прилипал к фото */
+  margin-bottom: 15px; /* отступ снизу 15px, чтоб текст не прилипал к фото */
+}
+
+.contacte, .cform {
+  border: 2px solid #f3deca;
+  border-radius: 5px;
+  background-color: #f3deca27;
+  padding: 5px 5%;
+  height: 325px;
+}
+
+.harta {
+  width: 100%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+@media (max-width: 850px) {
+  
+  .col-50 {
+      width: 100%;
+      float: left;
+      padding: 0px 10px;
+  }
+
+  .contacte, .cform {
+    border: 2px solid #f3deca;
+    border-radius: 5px;
+    background-color: #f3deca27;
+    padding: 5px 5%;
+    height: 360px;
+  }
+}
